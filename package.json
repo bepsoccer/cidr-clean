@@ -1,6 +1,6 @@
 {
-  "name": "cidr-clean",
-  "version": "1.1.1",
+  "name": "cidr-clean-bp",
+  "version": "0.0.1",
   "description": "Compare list of CIDR, remove duplicates and choose the heaviest network in case of overlap",
   "main": "index.js",
   "scripts": {
@@ -8,23 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eviltik/cidr-clean.git"
+    "url": "git+https://github.com/bepsoccer/cidr-clean-bp.git"
   },
   "keywords": [
     "cidr"
   ],
-  "author": "eviltik",
+  "author": "bepsoccer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eviltik/cidr-clean/issues"
+    "url": "https://github.com/bepsoccer/cidr-clean-bp/issues"
   },
-  "homepage": "https://github.com/eviltik/cidr-clean#readme",
+  "homepage": "https://github.com/bepsoccer/cidr-clean-bp#readme",
   "devDependencies": {
     "tap": "10.7.2"
   },
   "dependencies": {
     "ip-to-int": "0.3.1",
-    "netmask": "1.0.6",
-    "sanic.js": "0.0.4"
+    "netmask": "1.0.6"
   }
 }

@@ -1,4 +1,4 @@
-require('sanic.js').changeMyWorld();
+"use strict";
 const Netmask = require('netmask').Netmask;
 const ipInt = require('ip-to-int');
 
