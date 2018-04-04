@@ -1,8 +1,7 @@
 # cidr-clean
 -----------
-[![Build Status](https://travis-ci.org/eviltik/cidr-clean.svg?branch=master)](https://travis-ci.org/eviltik/cidr-clean.svg)
+[![Build Status](https://travis-ci.org/bepsoccer/cidr-clean-bp.svg?branch=master)](https://travis-ci.org/bepsoccer/cidr-clean-bp.svg?branch=master)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-[![Dependencies](https://david-dm.org/eviltik/cidr-clean.svg)](https://david-dm.org/eviltik/cidr-clean)
 
 What for ?
 ----------
@@ -14,18 +13,19 @@ Clean an array of CIDR
 * remove extra spaces
 * choose the heaviest network in case of overlap
 
+This is a fork of cidr-clean by Eviltik to make it work with an older nodejs implementation.
 
 Installation
 ------------
 ```
-$ npm install cidr-clean
+$ npm install cidr-clean-bp
 ```
 
 
 Usage
 -----
 ```
-const cidrClean = require('cidr-clean');
+const cidrClean = require('cidr-clean-bp');
 
 let list = [
     '#mycomment',
