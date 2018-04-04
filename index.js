@@ -12,10 +12,11 @@ function cleaner(cidr1, cidr2) {
 
     // merge both
     if (cidr2) {
-        tmp = [...cidr1, ...cidr2];
+        tmp = cidr1.concat(cidr2);
     } else {
         tmp = cidr1;
     }
+    cidr1 = cidr2 = null;
 
     // remove extra spaces
     tmp = tmp.map(c => {
@@ -28,7 +29,7 @@ function cleaner(cidr1, cidr2) {
     });
 
     // remove duplicates
-    tmp = [ ...new Set(tmp) ];
+    tmp = Array.from(new Set(tmp));
 
     // detect overlaps
     tmp = tmp.filter((c1,idx1) => {
