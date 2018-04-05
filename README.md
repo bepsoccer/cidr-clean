@@ -1,6 +1,6 @@
 # cidr-clean
 -----------
-[![Build Status](https://travis-ci.org/bepsoccer/cidr-clean-bp.svg?branch=make-it-work-with-ictrlLX)](https://travis-ci.org/bepsoccer/cidr-clean-bp.svg?branch=make-it-work-with-ictrlLX)
+[![Build Status](https://travis-ci.org/bepsoccer/cidr-clean-bp.svg?branch=master)](https://travis-ci.org/bepsoccer/cidr-clean-bp.svg?branch=master)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 What for ?
